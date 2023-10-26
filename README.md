@@ -62,3 +62,22 @@ Statefull compoonents are more suitable for components that require complex logi
 
 ### 2. How do you pass data from parent to child?
 => Data can be passed from a parent component to a child component in React through the use of **props**.Props are essentially properties that are assigned to a child component by its parent. The parent component can specify the values of these props when rendering the child component. This allows you to share data, configuration, and behavior between components.
+
+<hr>
+
+### 3. What is the package name you are using for routing
+=> react-router-dom
+
+### 4.Routing Implementation
+=> CHECK THE SRC/MOCKPREP-DAY2/ROUTING
+
+### 5.How do you switch one component to another, Conditional Rendering
+=> CHECK THE src/MockPrep-Day2/ConditionalRendering/ConditionCompo.js
+
+### 6. Difference between FETCH and AXIOS
+=>
+Axios: Axios is a third-party library that simplifies the process of making HTTP requests. Where The Fetch API is a built-in feature in modern web browsers.
+
+ Axios allows for easy request cancellation using the built-in CancelToken feature. The Fetch API does not have built-in support for request cancellation. 
+
+ In axios we do not have to convert the data into JSON formate manually. But in FETCH we have to convert the data into JSON formate 
