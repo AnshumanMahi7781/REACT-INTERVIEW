@@ -26,19 +26,19 @@ Class components have access to various lifecycle methods like componentDidMount
 <hr>
 
 
-#### 4. What is package.json?  
+### 4. What is package.json?  
 =>
 package.json is a file used in Node.js and JavaScript projects. It contains metadata about the project, including the project's name, version, dependencies, and various configuration settings. It's commonly used to manage project dependencies and scripts for tasks like building, testing, and running the application.
 
 <hr>
 
-#### 5.What is JSX  
+### 5.What is JSX  
 
 JSX stands for JavaScript XML, which an extension to JavaScript syntax that allow us to write HTML like code within our Js code, within working with React.  JSX is used in React to define the structure and layout of UI components. It makes it more readable and easier to write and maintain complex user interfaces. Browsers don't understand JSX directly, so it's transformed into regular JavaScript using tools like Babel before it's executed in the browser.
 
 <hr>
 
-#### 6.StateFull and stateless componet   
+### 6.StateFull and stateless componet   
 
 In react StateFull components refers to the Classbased component and stateless component refers to the functional component.
 
@@ -54,4 +54,11 @@ Statefull compoonents are more suitable for components that require complex logi
 <hr>
 <center><h2>MOCK - INTERVIEW - PREPRATION DAY- TWO</h2> </center>
 
-<.1
+### 1. What is an EVENT in react?
+=> In React, an event is an action or occurrence that can be detected and responded to within a component. Events in React typically correspond to user interactions, like clicking a button, hovering over an element, or submitting a form. React uses a synthetic event system that normalizes events across different browsers, making it easier to work with event handling in a consistent manner. You can define event handlers, such as onClick or onChange, to respond to these events and update the component's state or trigger specific actions.
+
+<hr>
+
+
+### 2. How do you pass data from parent to child?
+=> Data can be passed from a parent component to a child component in React through the use of **props**.Props are essentially properties that are assigned to a child component by its parent. The parent component can specify the values of these props when rendering the child component. This allows you to share data, configuration, and behavior between components.
