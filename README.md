@@ -1,11 +1,12 @@
-### <h1> 1.What is SPA ? </h1> 
+<center><h1>MOCK - INTERVIEW - PREPRATION DAY-ONE</h1> </center>
+
+### <h3> 1.What is SPA ? </h3> 
+
 => 
 'SPA' Stands for Single Page Application, which is a type of web application that operates within a single HTML  page, and dynamically updating its content as the user interacts with it.
 it provide a seamless and interactive user experience by loading and updating content dynamically within a single web page, rather than navigating to multiple traditional pages.
 
-
-
-### 2. What is Virtual DOM ? 
+###  <h3> 2. What is Virtual DOM ?  </h3> 
 => 
 Virtual DOM is a concept of React, which is a lightweight in-memory representation of the actual dom of a web page. When changes are made in React Component, a new Virtual DOM will created, then react calculates the difference between the new virtual dom and the previous one to update the actual DOM more efficiently, this process known as reconcilication. It improve the performance and speed of react application.
 
@@ -13,7 +14,7 @@ DOM stands for 'DOCUMENT OBJECT MODEL", which  represents the document as a tree
 
 
 
-### 3. What is difference between class and functional component ?
+###  <h3> 3. What is difference between class and functional component ? </h3> 
 => 
 Class components are defined using JavaScript classes, while functional components are JavaScript functions.
 
@@ -24,18 +25,18 @@ Class components have access to various lifecycle methods like componentDidMount
 
 
 
-#### 4. What is package.json?
+####  <h3> 4. What is package.json? </h3> 
 =>
 package.json is a file used in Node.js and JavaScript projects. It contains metadata about the project, including the project's name, version, dependencies, and various configuration settings. It's commonly used to manage project dependencies and scripts for tasks like building, testing, and running the application.
 
 
 
-#### 5.What is JSX
+####  <h3> 5.What is JSX </h3> 
 
 JSX stands for JavaScript XML, which an extension to JavaScript syntax that allow us to write HTML like code within our Js code, within working with React.  JSX is used in React to define the structure and layout of UI components. It makes it more readable and easier to write and maintain complex user interfaces. Browsers don't understand JSX directly, so it's transformed into regular JavaScript using tools like Babel before it's executed in the browser.
 
 
-#### 6.StateFull and stateless componet
+####  <h3> 6.StateFull and stateless componet  </h3> 
 
 In react StateFull components refers to the Classbased component and stateless component refers to the functional component.
 
@@ -45,3 +46,10 @@ Statefull componet does have access to React's lifecycle methods where stateless
 
 Statefull compoonents are more suitable for components that require complex logic, data mangement or interactions with the server. where
   Stateless components are often used for presentation or UI components. They are concerned with how things look and are typically simpler and more focused on rendering.
+
+
+
+<hr>
+<center><h2>MOCK - INTERVIEW - PREPRATION DAY- TWO</h2> </center>
+
+<h3>Q.1</h3>
