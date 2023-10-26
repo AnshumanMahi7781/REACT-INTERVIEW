@@ -1,4 +1,4 @@
-### 1.What is SPA ? 
+### <h1> 1.What is SPA ? </h1> 
 => 
 'SPA' Stands for Single Page Application, which is a type of web application that operates within a single HTML  page, and dynamically updating its content as the user interacts with it.
 it provide a seamless and interactive user experience by loading and updating content dynamically within a single web page, rather than navigating to multiple traditional pages.
