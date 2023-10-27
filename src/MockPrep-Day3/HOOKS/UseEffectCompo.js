@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 function UseEffectCompo() {
     let [mouseLocation, setMouseLocation] = useState({ x: 0, y: 0 });
-    let [data, setData] = useState(0)
+    let [data] = useState(0)
 
     const mouseMoving = (e) => {
         console.log("Mouse HUA RE")
