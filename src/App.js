@@ -1,12 +1,12 @@
 import React, { Component, Suspense, lazy } from 'react'
-// import ChildCompo from './MockPrep-Day2/ChildCompo';
-// import RouteCompo from './MockPrep-Day2/Routing/RouteCompo';
-// import ConditionCompo from './MockPrep-Day2/ConditionalRendering/ConditionCompo';
-// import HomeCompo from './MockPrep-Day2/Routing/HomeCompo';
-
-// let HomeCompo = lazy(()=> import('./MockPrep-Day2/Routing/HomeCompo.js'));
+import ChildCompo from './MockPrep-Day2/ChildCompo';
 import './App.css'
+import RouteCompo from './MockPrep-Day2/Routing/RouteCompo';
+import ConditionCompo from './MockPrep-Day2/ConditionalRendering/ConditionCompo';
 import Parent from './MockPrep-Day3/LiftingUpState/Parent';
+import GitHubData from './MockPrep-Day3/Axios/GitHubData';
+
+let HomeCompo = lazy(() => import('./MockPrep-Day2/Routing/HomeCompo.js'));
 
 export default class App extends Component {
   constructor(props) {
@@ -20,20 +20,21 @@ export default class App extends Component {
   }
   render() {
     return (
-  //  <>
-  //     <ChildCompo data={this.state.counter} fun={this.updateCount} />
-  //     <RouteCompo/>
+      <>
+        <ChildCompo data={this.state.counter} fun={this.updateCount} />
+        <RouteCompo />
 
-  //     <ConditionCompo/>
-  //  </>
-  // <HomeCompo/>
-  <>
-  {/* <Suspense fallback={<p>Data Loading</p>}>
-    <HomeCompo />
-  </Suspense> */}
+        <ConditionCompo />
 
- <Parent />
-  </>
+        <HomeCompo />
+
+        <Suspense fallback={<p>Data Loading</p>}>
+          <HomeCompo />
+        </Suspense>
+
+        <Parent />
+        <GitHubData />
+      </>
     )
   }
 }
