@@ -91,3 +91,16 @@ Axios: Axios is a third-party library that simplifies the process of making HTTP
 This can happen when components in a Components tree need to access shared data, but they are not direct descendants of each other.
 
 State Uplifting is the process of moving the state from a child component to a parent component. This is achieved  by lifting the state to a common ancestor component that needs access to the state data.
+
+<hr>
+
+### 2. What is UseState Hook ?(Implementation)  ?
+=> useState hook is a function, that allows functional components to manage state. useState accepts an initial state and returns two values : 
+One is the current state and Second one is the function that updates the state variable. 
+
+
+<hr>
+
+### 3. What is useEffect Hook ?(Implementation)  ?
+=> useState hook is a function, that allows functional components to manage state. useState accepts an initial state and returns two values : 
+One is the current state and Second one is the function that updates the state variable. 

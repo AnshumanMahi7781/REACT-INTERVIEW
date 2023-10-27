@@ -5,6 +5,8 @@ import RouteCompo from './MockPrep-Day2/Routing/RouteCompo';
 import ConditionCompo from './MockPrep-Day2/ConditionalRendering/ConditionCompo';
 import Parent from './MockPrep-Day3/LiftingUpState/Parent';
 import GitHubData from './MockPrep-Day3/Axios/GitHubData';
+import UseStateCompo from './MockPrep-Day3/HOOKS/UseStateCompo';
+import UseEffectCompo from './MockPrep-Day3/HOOKS/UseEffectCompo';
 
 let HomeCompo = lazy(() => import('./MockPrep-Day2/Routing/HomeCompo.js'));
 
@@ -34,6 +36,9 @@ export default class App extends Component {
 
         <Parent />
         <GitHubData />
+
+        <UseStateCompo/>
+        <UseEffectCompo/>
       </>
     )
   }
