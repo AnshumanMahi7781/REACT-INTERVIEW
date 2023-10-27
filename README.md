@@ -81,3 +81,13 @@ Axios: Axios is a third-party library that simplifies the process of making HTTP
  Axios allows for easy request cancellation using the built-in CancelToken feature. The Fetch API does not have built-in support for request cancellation. 
 
  In axios we do not have to convert the data into JSON formate manually. But in FETCH we have to convert the data into JSON formate 
+
+ <hr>
+<center><h2>MOCK - INTERVIEW - PREPRATION DAY- THREE</h2> </center>
+
+### 1. What do You mean by Prop Drilling ?
+
+=> In React, Prop drilling refers to the process of passing data from a high level component down to a deep level component through intermediate components that do not need the data themeselves.
+This can happen when components in a Components tree need to access shared data, but they are not direct descendants of each other.
+
+State Uplifting is the process of moving the state from a child component to a parent component. This is achieved  by lifting the state to a common ancestor component that needs access to the state data.

@@ -1,12 +1,13 @@
 import React, { Component, Suspense, lazy } from 'react'
-import ChildCompo from './MockPrep-Day2/ChildCompo';
-import RouteCompo from './MockPrep-Day2/Routing/RouteCompo';
-import './App.css'
-import ConditionCompo from './MockPrep-Day2/ConditionalRendering/ConditionCompo';
+// import ChildCompo from './MockPrep-Day2/ChildCompo';
+// import RouteCompo from './MockPrep-Day2/Routing/RouteCompo';
+// import ConditionCompo from './MockPrep-Day2/ConditionalRendering/ConditionCompo';
 // import HomeCompo from './MockPrep-Day2/Routing/HomeCompo';
 
-let HomeCompo = lazy(()=> import('./MockPrep-Day2/Routing/HomeCompo.js'));
-console.log(HomeCompo)
+// let HomeCompo = lazy(()=> import('./MockPrep-Day2/Routing/HomeCompo.js'));
+import './App.css'
+import Parent from './MockPrep-Day3/LiftingUpState/Parent';
+
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -27,10 +28,11 @@ export default class App extends Component {
   //  </>
   // <HomeCompo/>
   <>
-  <Suspense fallback={<p>Data Loading</p>}>
+  {/* <Suspense fallback={<p>Data Loading</p>}>
     <HomeCompo />
-  </Suspense>
-  hello
+  </Suspense> */}
+
+ <Parent />
   </>
     )
   }
