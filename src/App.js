@@ -7,7 +7,10 @@ import Parent from './MockPrep-Day3/LiftingUpState/Parent';
 import GitHubData from './MockPrep-Day3/Axios/GitHubData';
 import UseStateCompo from './MockPrep-Day3/HOOKS/UseStateCompo';
 import UseEffectCompo from './MockPrep-Day3/HOOKS/UseEffectCompo';
-
+import ParentCompo from './MockPrep-Day4/UseCallBackComponents/ParentCompo';
+import UseMemoCompo from './MockPrep-Day4/UseMemoComponents/UseMemoCompo';
+import UserRefCompo from './MockPrep-Day4/UseRefComponents/UserRefCompo';
+import UseReducerCompo from './MockPrep-Day4/UseReducerComponents/UseReducerCompo'
 let HomeCompo = lazy(() => import('./MockPrep-Day2/Routing/HomeCompo.js'));
 
 export default class App extends Component {
@@ -39,6 +42,14 @@ export default class App extends Component {
 
         <UseStateCompo/>
         <UseEffectCompo/>
+
+        <ParentCompo/>
+         <UseMemoCompo/>
+
+        <UserRefCompo />
+
+        <UseReducerCompo/>
+       
       </>
     )
   }
