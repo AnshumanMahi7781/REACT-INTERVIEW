@@ -11,7 +11,11 @@ import ParentCompo from './MockPrep-Day4/UseCallBackComponents/ParentCompo';
 import UseMemoCompo from './MockPrep-Day4/UseMemoComponents/UseMemoCompo';
 import UserRefCompo from './MockPrep-Day4/UseRefComponents/UserRefCompo';
 import UseReducerCompo from './MockPrep-Day4/UseReducerComponents/UseReducerCompo'
+import ClickCounter from './MockPrep-Day5/HIgherOrderComponent/ClickCounter';
+import HoverCounter from './MockPrep-Day5/HIgherOrderComponent/HoverCounter';
+import MoutningPhaseCompo from './MockPrep-Day5/LIfeCycleMethods/MountingPhaseCompo';
 let HomeCompo = lazy(() => import('./MockPrep-Day2/Routing/HomeCompo.js'));
+
 
 export default class App extends Component {
   constructor(props) {
@@ -26,7 +30,7 @@ export default class App extends Component {
   render() {
     return (
       <>
-        <ChildCompo data={this.state.counter} fun={this.updateCount} />
+        {/* <ChildCompo data={this.state.counter} fun={this.updateCount} />
         <RouteCompo />
 
         <ConditionCompo />
@@ -48,7 +52,11 @@ export default class App extends Component {
 
         <UserRefCompo />
 
-        <UseReducerCompo/>
+        <UseReducerCompo/> */}
+{/* 
+        <ClickCounter/>
+        <HoverCounter/> */}
+        <MoutningPhaseCompo value = "Mahi"/>
        
       </>
     )

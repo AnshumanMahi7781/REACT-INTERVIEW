@@ -247,3 +247,11 @@ Dispatch is a function that allow us to send actions to the reducer function. It
 When we call the dispatch method, we pass an action object that describes the type of action to be performed along with any additional data needed to update the state. 
 The reducer then proess the action and returns a new state based on the current state and the action.
 <hr>
+
+<center>
+  <h2>MOCK - INTERVIEW - PREPRATION DAY- FIVE</h2>
+</center>
+
+### 1. High Order Component in react js ?(Implementation)
+=> In React, A higher order component is a function that takes a component as an argument/Props and return a new enhanced component as output.
+It is like a special function that can make our components more powerful and add extra functionality to them. Essentially it is a way to reuse component logic and share it between different components.
