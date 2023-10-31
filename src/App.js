@@ -30,7 +30,7 @@ export default class App extends Component {
   render() {
     return (
       <>
-        {/* <ChildCompo data={this.state.counter} fun={this.updateCount} />
+        <ChildCompo data={this.state.counter} fun={this.updateCount} />
         <RouteCompo />
 
         <ConditionCompo />
@@ -52,10 +52,9 @@ export default class App extends Component {
 
         <UserRefCompo />
 
-        <UseReducerCompo/> */}
-{/* 
+        <UseReducerCompo/> 
         <ClickCounter/>
-        <HoverCounter/> */}
+        <HoverCounter/>
         <MoutningPhaseCompo value = "Mahi"/>
        
       </>
