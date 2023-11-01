@@ -255,3 +255,13 @@ The reducer then proess the action and returns a new state based on the current 
 ### 1. High Order Component in react js ?(Implementation)
 => In React, A higher order component is a function that takes a component as an argument/Props and return a new enhanced component as output.
 It is like a special function that can make our components more powerful and add extra functionality to them. Essentially it is a way to reuse component logic and share it between different components.
+
+
+<center>
+  <h2>MOCK - INTERVIEW - PREPRATION DAY- SIX</h2>
+</center>
+
+### 1. Explain Reducer as a pure Function.
+=> In Redux, a reducer function is responsible for specifying how the application's state should change in response to dispatched actions. Reducers are pure functions that take the current state and an action as arguments and return the new state based on the action's type.
+
+ Reducers are pure functions, which means they always produce the same output for the same given input and have no side effects. They rely only on their input arguments (the state and an action) to compute the new state and don’t modify the existing state directly.

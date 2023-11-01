@@ -1,6 +1,11 @@
+import './App.css'
+
+import { Provider } from 'react-redux'
+import CounterStore from './MockPrep-Day6/Store/CounterStore'
+import CounterCompo from './MockPrep-Day6/UI/CounterCompo'
+
 import React, { Component, Suspense, lazy } from 'react'
 import ChildCompo from './MockPrep-Day2/ChildCompo';
-import './App.css'
 import RouteCompo from './MockPrep-Day2/Routing/RouteCompo';
 import ConditionCompo from './MockPrep-Day2/ConditionalRendering/ConditionCompo';
 import Parent from './MockPrep-Day3/LiftingUpState/Parent';
@@ -44,19 +49,23 @@ export default class App extends Component {
         <Parent />
         <GitHubData />
 
-        <UseStateCompo/>
-        <UseEffectCompo/>
+        <UseStateCompo />
+        <UseEffectCompo />
 
-        <ParentCompo/>
-         <UseMemoCompo/>
+        <ParentCompo />
+        <UseMemoCompo />
 
         <UserRefCompo />
 
-        <UseReducerCompo/> 
-        <ClickCounter/>
-        <HoverCounter/>
-        <MoutningPhaseCompo value = "Mahi"/>
-       
+        <UseReducerCompo />
+        <ClickCounter />
+        <HoverCounter />
+        <MoutningPhaseCompo value="Mahi" />
+
+        <Provider store={CounterStore}>
+          <CounterCompo />
+        </Provider>
+
       </>
     )
   }
